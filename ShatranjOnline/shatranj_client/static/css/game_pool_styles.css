@@ -1,0 +1,75 @@
+html, body {
+   height: 100%;
+}
+.alert {
+    color: red;
+    font-style: italic;
+}
+
+.play_for_white {
+    background-image: url('/static/misc/white-circle.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.play_for_black{
+    background-image: url('/static/misc/black-circle.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+#auth {
+    border-radius: 25px;
+    position: absolute;
+    top: 10%;
+    right: 40%;
+    background: lightgrey;
+    padding: 30px;
+}
+
+.hidden {
+    display: none;
+}
+
+.active_games_container {
+      min-height: 70%;
+}
+.active_games_row {
+      min-height: 70%;
+}
+
+
+#game_settings {
+    position: absolute;
+    top: 10%;
+    right: 40%;
+    background: lightgrey;
+    padding: 30px;
+    border-radius: 25px;
+
+}
+
+#waiting_opponent {
+    position: absolute;
+    top: 10%;
+    right: 40%;
+    background: lightgrey;
+    padding: 50px;
+    border-radius: 25px;
+
+}
+
+#new_game {
+    margin-top: 50px;
+    width: 200px;
+}
+
+.waiting_opponent_inner {
+    margin-bottom: 30px;
+}
+
+.username {
+    padding-right: 150px;
+    padding-top: 30px;
+}

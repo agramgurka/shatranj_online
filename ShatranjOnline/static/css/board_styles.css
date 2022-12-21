@@ -1,0 +1,94 @@
+#board {
+  border: 1px solid;
+}
+
+#draw_menu {
+    border-radius: 25px;
+    position: absolute;
+    top: 10%;
+    right: 40%;
+    background: lightgrey;
+    padding: 30px;
+}
+
+.username {
+    padding-right: 150px;
+    padding-top: 30px;
+}
+
+.cell {
+     width:60px;
+     height:60px;
+}
+
+.hidden {
+    display: none;
+}
+.BLACK.BS {
+    background-image: url('/static/figures/BKPN.png');
+}
+
+.BLACK.AB {
+    background-image: url('/static/figures/BKHS.png');
+}
+
+.BLACK.PL{
+    background-image: url('/static/figures/BKBP.png');
+}
+
+.BLACK.RH {
+    background-image: url('/static/figures/BKRK.png');
+}
+
+.BLACK.FZ {
+    background-image: url('/static/figures/BKQN.png');
+}
+
+.BLACK.SH {
+    background-image: url('/static/figures/BKKG.png');
+}
+
+.WHITE.WS {
+    background-image: url('/static/figures/WTPN.png');
+}
+
+.WHITE.AB {
+    background-image: url('/static/figures/WTHS.png');
+}
+
+.WHITE.PL{
+    background-image: url('/static/figures/WTBP.png');
+}
+
+.WHITE.RH {
+    background-image: url('/static/figures/WTRK.png');
+}
+
+.WHITE.FZ {
+    background-image: url('/static/figures/WTQN.png');
+}
+
+.WHITE.SH {
+    background-image: url('/static/figures/WTKG.png');
+}
+
+.black_field {
+    background-color: grey;
+}
+
+.selected_piece {
+    background-color: yellow;
+}
+
+.rotated {
+    transform:rotate(180deg);
+}
+
+.btn:active {
+     vertical-align: top;
+    padding: 8px 13px 6px;
+}
+
+.piece {
+   draggable: true;
+}
